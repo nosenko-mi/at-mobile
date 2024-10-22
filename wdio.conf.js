@@ -1,6 +1,3 @@
-import custom from './custom.js';
-
-
 
 export const config = {
     //
