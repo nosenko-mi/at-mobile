@@ -51,7 +51,7 @@ describe('API Demos', function () {
 
     })
 
-    it.only('Clicking on List dialog should show alert dialog with list of items', async function () {
+    it('Clicking on List dialog should show alert dialog with list of items', async function () {
 
         // skip straight to AlertDialogSamples
         await driver.startActivity('io.appium.android.apis', '.app.AlertDialogSamples') 
